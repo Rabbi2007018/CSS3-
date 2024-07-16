@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 500px;
+            height: 200px;
+            border: 2px solid slateblue;
+
+        }
+        #box1{
+            overflow:scroll;
+            overflow-x: hidden;
+        }
+        #box2{
+            overflow: auto;
+        }
+        .ellipsis{
+            width: 200px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow:ellipsis;
+        }
+    </style>
+</head>
+<body >
+    <header >
+        <p title="magni iure consequuntur eaque veritatis debitis magnam inventore harum porro, autem incidunt maxime ipsam. Quas." class="ellipsis"> I am a learner. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nobis sunt fugit amet temporibus. Perferendis, magni iure consequuntur eaque veritatis debitis magnam inventore harum porro, autem incidunt maxime ipsam. Quas.</p>
+    </header>
+    <section>
+        <div id="box1" class="box">
+            <h3>my text box 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ducimus aliquid in earum maiores excepturi consectetur minima consequatur ratione animi dolores nostrum molestiae ullam ex, numquam expedita, officiis et unde? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis mollitia, dolor hic aliquid temporibus, natus illum molestias doloremque omnis ipsum fugit quaerat quas blanditiis sunt perferendis, assumenda sequi reprehenderit eos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto iure earum doloribus dicta eaque minus pariatur harum commodi temporibus, possimus veniam inventore officiis veritatis praesentium vero officia amet dolorem accusamus! </p>
+        </div>
+        <div id="box2" class="box">
+            <h3>my text box 2</h3>
+            <p>Aliquid reiciendis obcaecati neque iste! Optio eaque, atque adipisci laudantium veritatis voluptatum ducimus esse! Dolorum consequatur provident rem id! Nostrum repellat vel exercitationem laboriosam eius? Sapiente, dolorum? Facere, perferendis in.
+            Aliquid reiciendis obcaecati neque iste! Optio eaque, atque adipisci laudantium veritatis voluptatum ducimus esse! Dolorum consequatur provident rem id! Nostrum repellat vel exercitationem laboriosam eius? Sapiente, dolorum? Facere, perferendis in.
+            Aliquid reiciendis obcaecati neque iste! Optio eaque, atque adipisci laudantium veritatis voluptatum ducimus esse! Dolorum consequatur provident rem id! Nostrum repellat vel exercitationem laboriosam eius? Sapiente, dolorum? Facere, perferendis in.</p>
+        </div>
+    </section>
+</body>
+</html>
